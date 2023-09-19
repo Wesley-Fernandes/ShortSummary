@@ -31,7 +31,7 @@ export default function Form() {
       return
     }
 
-    const api = backend.concat(`/${id}`)
+    const api = backend.concat(`/summary/${id}`)
 
     axios
       .post(api, {
