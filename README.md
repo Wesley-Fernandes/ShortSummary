@@ -14,7 +14,7 @@ Shorts Summary é uma plataforma inovadora que oferece resumos de vídeos curtos
 
 - **Inteligência Artificial**: Utilizamos IA avançada para analisar e transcrever o conteúdo de vídeos, fornecendo resumos concisos e informativos.
 
-- **Ampla Variedade de Categorias**: Cobrimos uma vasta gama de categorias de vídeos, incluindo notícias, beleza, tecnologia, comédia, música e muito mais.
+- **Tempo limite**: Podemos dar contexto de até 60 segundos de short video.
 
 ## Tecnologias Principais
 
