@@ -14,6 +14,7 @@ export default function Form() {
   const { setResponse, removeResponse, setStatus } = store()
 
   const userSOCKET = store((state) => state.socket)
+  const backend = process.env.NEXT_PUBLIC_API!;
 
   async function Submiter(event: FormEvent) {
     event.preventDefault()
@@ -30,8 +31,7 @@ export default function Form() {
       return
     }
 
-    const api = 'https://shorts-summary.onrender.com/summary/'.concat(id)
-    console.log(api)
+    const api = backend.concat(id)
 
     axios
       .post(api, {
@@ -51,7 +51,7 @@ export default function Form() {
 
   useEffect(() => {
     if (!socket || !socket.connected) {
-      const newSocket = io('https://shorts-summary.onrender.com')
+      const newSocket = io(backend)
 
       newSocket.on('status', (status) => {
         setStatus(status)
