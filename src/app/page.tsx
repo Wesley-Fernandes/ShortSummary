@@ -7,7 +7,7 @@ import Modal from '@/components/Modal'
 export default function Home() {
   return (
     <Main>
-      <div className="flex flex-col justify-end items-center flex-1">
+      <div style={{height: '50vh'}} className="flex flex-col justify-end items-center flex-1">
         <Title />
         <Form />
         <small className="text-white/30 font-light mt-1">
