@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react'
 
 interface props {
-  children: any;
+  children: any
 }
 export default function Main({ children }: props) {
-  return <main className="h-screen flex flex-col justify-center items-center">{children}</main>;
+  return (
+    <main className="h-screen w-screen flex flex-col justify-center items-center">
+      {children}
+    </main>
+  )
 }

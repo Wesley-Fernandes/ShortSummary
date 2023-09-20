@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer
       style={{ borderColor: '#202024', backgroundColor: '#0c0c0cc8' }}
-      className="h-16 mt-16  w-full border-t-2 bg-gray-1 flex items-center px-2 gap-2 justify-end"
+      className="h-16 mt-16  w-screen border-t-2 bg-gray-1 flex items-center px-2 gap-2 justify-end"
     >
       <Link
         href="https://github.com/Wesley-Fernandes"

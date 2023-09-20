@@ -67,7 +67,7 @@ export default function Form() {
   return (
     <form
       onSubmit={Submiter}
-      className="flex gap-2 max-w-[516px] items-center justify-center"
+      className="flex gap-2 max-w-[516px] max-[515px]:w-full max-[420px]:w-[360px] items-center justify-center"
     >
       <InputSearch />
       <Button />

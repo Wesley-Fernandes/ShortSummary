@@ -31,7 +31,7 @@ export default function Response() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [status]);
   return (
-    <div className="mt-16 w-[516px] max-[516px]:w-[420px] max-[420px]:w-[380px]">
+    <div className="mt-16 w-[516px] max-[516px]:w-[420px] max-[420px]:w-[360px] flex flex-col items-center justify-center">
       <div className="flex gap-2 items-center mb-2">
         <h2 className="text-white font-bold text-2xl">Resumo</h2>
         <span className="flex items-center px-3 rounded-lg bg-purple-1 text-white uppercase">
@@ -42,7 +42,7 @@ export default function Response() {
       <pre
         style={{
           color: "#7C7C8A",
-          width: "100%",
+          width: "95%",
           overflowX: "hidden",
           whiteSpace: "pre-wrap",
           fontFamily: "Roboto",
